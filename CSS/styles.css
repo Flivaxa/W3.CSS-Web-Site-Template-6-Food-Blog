@@ -46,7 +46,9 @@ a {
 
 /* Start Header */
 header {
-    position: relative;
+    position: sticky;
+    top: 0;
+    background-color: white;
 }
 header .holder {
     display: flex;
